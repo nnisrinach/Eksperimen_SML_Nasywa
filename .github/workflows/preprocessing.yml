@@ -27,7 +27,7 @@ jobs:
         python preprocessing/automate_Nasywa_Nisrina.py
 
     - name: Upload processed data
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: preprocessed-dataset
         path: preprocessing/credit_card_preprocessing.csv
