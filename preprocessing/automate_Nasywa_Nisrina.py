@@ -41,7 +41,7 @@ def preprocess_data(input_path: str, output_path: str):
 
 
 if __name__ == "__main__":
-    input_file = "../UCI_Credit_Card.csv"
-    output_file = "credit_card_preprocessing.csv"
+    input_file = "UCI_Credit_Card.csv" 
+    output_file = "preprocessing/credit_card_preprocessing.csv"
 
     preprocess_data(input_file, output_file)
